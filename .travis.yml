@@ -1,0 +1,10 @@
+# .travis.yml
+
+language: haskell
+sudo: false
+
+script:
+  - cabal configure --enable-tests -fallow-relative-paths
+  - cabal build
+  - cabal test
+  - cabal haddock

@@ -1,0 +1,5 @@
+# ignore generated files and directories
+
+/.stack-work
+/TAGS
+/dist/*
