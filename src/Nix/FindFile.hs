@@ -19,8 +19,7 @@ import System.Process
 
 findFile :: FilePath -> IO (Maybe FilePath)
 findFile path = do
-   let cmd = proc nixInstantiate ["--find-file", path ]
-   (ec, out, _) <- readCreateProcessWithExitCode cmd ""
+   (ec, out, _) <- readProcessWithExitCode nixInstantiate ["--find-file", path ] ""
    case (ec, lines out) of
       (ExitFailure _, _)     -> return Nothing
       (ExitSuccess, [path']) -> return (Just path')
