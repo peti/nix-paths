@@ -15,7 +15,7 @@ cabal-version:          >= 1.10
 
 flag allow-relative-paths
   description:          If any of the required Nix tools are missing at
-                        build-time, compile a run-time @$PATH@ dependent
+                        build-time, compile a run-time $PATH dependent
                         variant of this library instead of failing. This is
                         useful for test environment such as Travis-CI, which
                         may not have Nix installed.
