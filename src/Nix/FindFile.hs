@@ -1,5 +1,3 @@
-{-# LANGUAGE CPP #-}
-
 module Nix.FindFile ( findFile, findFileWithDefault ) where
 
 import Nix.Paths ( nixInstantiate )
