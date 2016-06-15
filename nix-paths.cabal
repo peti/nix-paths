@@ -13,6 +13,7 @@ license:                BSD3
 license-file:           LICENSE
 build-type:             Custom
 cabal-version:          >= 1.10
+tested-with:            GHC > 7.2 && < 8.1
 
 flag allow-relative-paths
   description:          If any of the required Nix tools are missing at
