@@ -1,5 +1,5 @@
 name:                   nix-paths
-version:                1.0.0.1
+version:                1.0.1
 synopsis:               Knowledge of Nix's installation directories.
 description:            This module provides full paths to various Nix
                         utilities, like @nix-store@, @nix-instantiate@, and
@@ -34,4 +34,4 @@ library
   exposed-modules:      Nix.Paths, Nix.FindFile
   build-depends:        base < 5, process
   if !flag(allow-relative-paths)
-    build-tools:        nix-instantiate, nix-build, nix-env, nix-store
+    build-tools:        nix-instantiate, nix-build, nix-env, nix-store, nix-hash

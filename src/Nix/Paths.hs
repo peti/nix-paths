@@ -1,6 +1,6 @@
 {-# LANGUAGE CPP #-}
 
-module Nix.Paths ( nixInstantiate, nixBuild, nixEnv, nixStore ) where
+module Nix.Paths ( nixInstantiate, nixBuild, nixEnv, nixStore, nixHash ) where
 
 -- | Complete path to the @nix-instantiate@ executable.
 nixInstantiate :: FilePath
@@ -17,3 +17,7 @@ nixEnv = PATH_TO_NIX_ENV
 -- | Complete path to the @nix-store@ executable.
 nixStore :: FilePath
 nixStore = PATH_TO_NIX_STORE
+
+-- | Complete path to the @nix-hash@ executable.
+nixHash :: FilePath
+nixHash = PATH_TO_NIX_HASH

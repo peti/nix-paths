@@ -17,7 +17,7 @@
 >        }
 >
 > programs :: [String]
-> programs = ["nix-instantiate", "nix-build", "nix-env", "nix-store"]
+> programs = ["nix-instantiate", "nix-build", "nix-env", "nix-store", "nix-hash"]
 >
 > configure :: (GenericPackageDescription, HookedBuildInfo) -> ConfigFlags -> IO LocalBuildInfo
 > configure (gpd, hbi) flags = do
