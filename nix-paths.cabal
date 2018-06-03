@@ -26,7 +26,7 @@ flag allow-relative-paths
   manual:               True
 
 custom-setup
-  setup-depends:        base, Cabal
+  setup-depends:        base, Cabal >= 1.24
 
 source-repository head
   type: git
