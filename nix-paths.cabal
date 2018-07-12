@@ -13,10 +13,10 @@ category:      Distribution, Nix
 homepage:      https://github.com/peti/nix-paths
 bug-reports:   https://github.com/peti/nix-paths/issues
 build-type:    Custom
-cabal-version: 1.24
+cabal-version: >= 1.10
 
 custom-setup
-  setup-depends: base, Cabal >= 1.24
+  setup-depends: base, Cabal
 
 source-repository head
   type:     git
