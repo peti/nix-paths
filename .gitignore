@@ -1,5 +1,7 @@
 # ignore generated files and directories
 
+/.*.environment.*-*
 /.stack-work
-/TAGS
+/dist-newstyle/*
 /dist/*
+/TAGS
