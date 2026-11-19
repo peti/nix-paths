@@ -17,7 +17,7 @@ build-type:    Custom
 cabal-version: >= 1.10
 
 custom-setup
-  setup-depends: base, Cabal
+  setup-depends: base == 4.*, Cabal == 3.*
 
 source-repository head
   type:     git
