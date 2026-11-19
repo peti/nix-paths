@@ -1,0 +1,10 @@
+-- cabal.project
+
+tests: True
+
+packages:
+  ./nix-paths.cabal
+
+package nix-paths
+  ghc-options: -Wall -Wcompat -Wincomplete-uni-patterns -Wincomplete-record-updates
+               -Wredundant-constraints -Wunused-packages
