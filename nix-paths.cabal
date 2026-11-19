@@ -15,6 +15,7 @@ homepage:      https://github.com/peti/nix-paths
 bug-reports:   https://github.com/peti/nix-paths/issues
 build-type:    Custom
 cabal-version: >= 1.10
+extra-source-files: README.md
 
 custom-setup
   setup-depends: base == 4.*, Cabal == 3.*
